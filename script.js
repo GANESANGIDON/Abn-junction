@@ -11,7 +11,7 @@ header.addEventListener('click', function () {
   // navbar collapse
   navbar.classList.toggle('opened')
   if (navbar.style.maxHeight) {
-    navbar.style.maxHeight = null2
+    navbar.style.maxHeight = null
   } else {
     navbar.style.maxHeight = navbar.scrollHeight + 'px'
   }
